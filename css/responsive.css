@@ -1,0 +1,220 @@
+@media (max-width: 1680px) {
+    .main .referal-system {
+        width: 480px;
+    }
+}
+@media (max-width: 1366px) {
+    body {
+        overflow-x: hidden;
+    }
+    .tabs-content .row.content {
+        font-size: 13px;
+    }
+}
+@media (max-width: 1280px) {
+    .container {
+        width: 96%;
+    }
+    .main .profile-content .profile {
+        padding: 40px 0 110px 70px;
+        margin-left: -70px;
+        margin-right: -100px;
+    }
+    .main .referal-system {
+        margin-left: -100px;
+    }
+    .main .profile-content .money {
+        width: 370px;
+    }
+    .main .profile-content .money .purse {
+        display: inline-block;
+    }
+    .main .profile-content .money .purse::after {
+        right: -30px;
+    }
+}
+@media (max-width: 1080px) {
+    .tabs-content .row.content {
+        font-size: 12px;
+    }
+    .main .profile-content .profile-container {
+        max-width: 350px;
+    }
+    .main .profile-content .profile {
+        margin-right: -20px;
+        width: 460px;
+    }
+    .main .referal-system {
+        margin-left: -20px;
+    }
+    .main .referal-system .referal-system-content {
+        padding: 45px 0 0 45px;
+    }
+}
+@media (max-width: 1024px) {
+    .tabs-content .coefv {
+        width: 14%;
+    }
+    .tabs-content .match {
+        width: 18%;
+    }
+    .tabs-content .statistics .free {
+        width: 9%;
+    }
+    .tabs-content .status .view {
+        padding: 5px 0;
+    }
+}
+@media (max-width: 992px) {
+    .main .profile .profile-info .nickname {
+        font-size: 20px;
+    }
+    .main .profile .profile-info a {
+        width: 160px;
+    }
+    .main .profile-content .profile-container {
+        max-width: 320px;
+    }
+    .main .profile-content .profile {
+        margin-right: -50px;
+    }
+    .main .referal-system {
+        margin-left: -50px;
+    }
+    .main .referal-system .referal-system-content {
+        padding-left: 65px;
+    }
+}
+@media (max-width: 800px) {
+    .tabs-content .scroll-table {
+        text-align: center;
+        display: block;
+        width: initial !important;
+        background: #f7f7f7;
+    }
+    .tabs-content .scroll-table img {
+        width: 130px;
+    }
+    .tabs-titles .container {
+        padding: 0;
+    }
+    body > .tabs-content .container {
+        overflow-x: auto;
+    }
+    body > .tabs-content .container > div {
+        width: 960px;
+    }
+    body > .tabs-content .container .subscribe {
+        width: initial;
+    }
+    .main .profile-content {
+        flex-wrap: wrap;
+    }
+    body .main .container .profile-content > div {
+        width: 500px;
+        padding-bottom: 30px;
+        margin: 0 auto 20px;
+    }
+    .main .profile-content {
+        padding-top: 6%;
+    }
+    .main .referal-system .referal-system-content {
+        padding-left: 0;
+        text-align: center;
+    }
+    .main .referal-system-content .invited-amount {
+        margin: 0 auto;
+        padding-left: 0;
+        position: relative;
+        left: -40px;
+    }
+    .main .referal-system-content .invited-amount-week {
+        width: 70%;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .main .referal-system-content .invited-amount-month {
+        width: 30%;
+    }
+    .main .referal-system-content .invited-period {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .tabs-titles {
+        margin-top: 0;
+    }
+    .main .referal-link {
+        margin: 0 auto; 
+    }
+    .tabs-titles .tab-title {
+        font-size: 14px;
+    }
+    .tabs-content {
+        padding-bottom: 40px;
+    }
+    .main .profile-content .money .promocode {
+        margin: 0 auto 20px;
+    }
+    .main .profile-content .profile-container {
+        margin: 0 auto;
+    }
+    body .main .container .profile-content > div {
+        padding-left: 0;
+    }
+}
+@media (max-width: 568px) {
+    .modal-window {
+        width: 95%;
+    }
+    .tabs-titles .tab-title span::before {
+        width: 25px;
+        height: 25px;
+        background-size: contain !important;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .tabs-titles .tab-title span {
+        padding-left: 30px;
+    }
+    body .main .container .profile-content > div {
+        width: 96%;
+    }
+    .main .profile-content {
+        padding-top: 10%;
+    }
+}
+@media (max-width: 414px) {
+    .tabs-titles .container {
+        flex-wrap: wrap;
+    }
+    .tabs-titles .tab-title {
+        width: 100%;
+        padding: 10px 0 16px;
+    }
+}
+@media (max-width: 360px) {
+    .main .profile-content .money .purse {
+        margin-left: 100px;
+    }
+    .main .profile-photo .photo {
+        width: 109px;
+        height: 109px;
+    }
+    .main .profile .profile-info .nickname {
+        font-size: 16px;
+    }
+    .main .profile .profile-info a {
+        width: 146px;
+        margin-bottom: 15px;
+    }
+    .main .profile-photo .edit {
+        width: 110px;
+        padding: 0.1% 6%;
+    }
+    .main .profile-photo .edit p::after {
+        right: 7%;
+    }
+    .main .profile-content .profile-container {
+        padding: 10px;
+    }
+}
